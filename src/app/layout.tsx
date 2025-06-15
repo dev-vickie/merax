@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import {  Geist_Mono } from "next/font/google";
+import { Geist_Mono } from "next/font/google";
 import { Lexend } from "next/font/google";
 import "./globals.css";
 
@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your App Title",
+  title: "Merax",
   description: "Your app description",
 };
 
@@ -26,7 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${lexend.variable} ${geistMono.variable} font-geistMono antialiased`}>
+      <body
+        className={`${lexend.variable} ${geistMono.variable} font-geistMono antialiased`}
+      >
         {children}
       </body>
     </html>
