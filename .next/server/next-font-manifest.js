@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/vickie/Desktop/merax/src/app/layout\":[\"static/media/93f479601ee12b01-s.p.woff2\",\"static/media/84455f2b5a591033-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
